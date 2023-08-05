@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: "Tinos", serif;
+    line-height: 1.2em;
+}
+
+.gradient-bg {
+    width: 100%;
+    background-image: linear-gradient(to right, #254556, #39637b, #254556);
+}
+
+.superscript {
+    position: relative; 
+    top: -0.3em; 
+    font-size: 80%
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 20px minmax(310px, 1000px) 20px 1fr;
+}

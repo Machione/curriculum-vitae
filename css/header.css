@@ -1,0 +1,69 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 7px;
+    color: white;
+    box-shadow: inset 0 -10px 10px -10px black;
+    page-break-inside: avoid;
+}
+
+header .header-content {
+    grid-column: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 7vw;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Changa", sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 3px black;
+    line-height: 1em;
+    margin: 0;
+}
+
+header .contact-details {
+    display: grid;
+    grid-auto-rows: 1.7em;
+    align-items: center;
+}
+
+header .contact-details a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Icons taken from feathericons.com */
+header .contact-details svg {
+    grid-column: 1;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    stroke-width: 1;
+    stroke: white;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-right: 10px;
+}
+
+header .contact-details > div {
+    grid-column: 2;
+}
+
+header .contact-details div {
+    display: inline;
+}
+
+.header-line {
+    margin-bottom: 4vmin;
+    height: 5px;
+}

@@ -1,0 +1,30 @@
+@media print {
+    p {
+        orphans: 3;
+    }
+    
+    body {
+        font-size: 11pt;
+    }
+    
+    .section {
+        grid-template-columns: 60pt 0 auto 0 60pt;
+    }
+    
+    h1 {
+        -webkit-print-color-adjust: exact;
+        -webkit-filter: opacity(1);
+    }
+}
+
+@page {
+    margin-top: 30pt;
+    margin-bottom: 60pt;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    size: A4;
+}
+
+@page :first {
+    margin-top: 0cm;
+}
