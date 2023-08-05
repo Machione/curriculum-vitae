@@ -6,14 +6,15 @@ Create a stylish, functional, dynamic, and customisable Curriculum Vitae (CV) or
 
 - CV = HTML + CSS + JS, meaning it can be hosted basically anywhere, even on GitHub using GH Pages like the example linked above.
 - Fully responsive layout which can fit and look good on any screen.
+- Working hyperlinks to socials, email, telephone, etc. in contacts details header.
 - Dynamic calculation of the duration in years and months between two dates, allowing for tenure to be kept up to date automatically.
 - Easily convert to PDF.
 - Generate a private and public version of your CV.
 
 ## Quick Start
 
-1. Fork this repository
-2. Replace the contents of [cv.html](cv.html) with your own information.
+1. Either download a ZIP of this repository, or fork and clone it.
+2. In your local copy, replace the contents of [cv.html](cv.html) with your own information.
 3. Refer to the instructions below to avail of additional functionality, if desired.
 
 ## Additional Features
