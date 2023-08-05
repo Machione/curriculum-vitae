@@ -5,5 +5,5 @@ if __name__ == "__main__":
     for private_div in soup.find_all("div", class_="private"):
         private_div.decompose()
     
-    with open("private_cv.html", "w") as html:
+    with open("public_cv.html", "w") as html:
         html.write(str(soup))
