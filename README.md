@@ -16,6 +16,7 @@ Create a stylish, functional, dynamic, and customisable Curriculum Vitae (CV) or
 1. Either download a ZIP of this repository, or fork and clone it.
 2. In your local copy, replace the contents of [cv.html](cv.html) with your own information.
 3. Refer to the instructions below to avail of additional functionality, if desired.
+4. Update the contents of the css folder to style things differently.
 
 ## Additional Features
 
