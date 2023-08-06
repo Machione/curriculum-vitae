@@ -50,3 +50,7 @@ Note that this requires [Python 3](https://www.python.org) and [Beautiful Soup 4
 ## Contributing
 
 This project is not under active development. Nevertheless, if you think something could be better, submit an issue. Pull requests are welcomed. The project uses [Typescript](https://www.typescriptlang.org), which will need to be compiled to Javascript before requesting a review on a PR. With Typescript installed, run `tsc ts/date_calc.ts --outDir js` in the root of the repository. Also, ensure any relevant updates have been made to this README before requesting a review.
+
+## Credits
+
+Icons used come from <https://feathericons.com>.
